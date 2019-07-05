@@ -55,7 +55,7 @@ height: 10vh;
 font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(18, 18, 44);
 color: white;
-justify-content: space-between;
+justify-content: space-around;
 
 }
 
@@ -71,6 +71,7 @@ justify-content: space-between;
   color: white;
   padding: 2px 2px;
   background-color: rgb(18, 18, 44);
+  align-self: center;
 }
 .project-link:hover{
   background-color: red;
