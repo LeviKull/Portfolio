@@ -1,0 +1,195 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navigation{
+  display: flex;
+  margin: 0 10px;
+}
+
+li, a{
+  list-style: none;
+  text-decoration: none;
+  padding: 0 15px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  align-self: center;
+  display: flex;
+}
+
+.logo{
+  font-size: 3em;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bolder;
+}
+
+.navcol-1, .navcol-2, .container{
+  flex: 1;
+}
+
+.navcol-2{
+  justify-content: flex-end;
+}
+.showcase{
+  display: flex;
+  margin-top: 5px;
+  flex: 1;
+
+}
+.col{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5em; 
+}
+
+.main-title{
+  color: white;
+
+}
+.col-1{
+  flex: 1;
+  background-image: url('../img/barber.png');
+  background-size: cover;
+  align-content: center;
+}
+.col-2{
+  background-image: url('../img/paint.png');
+  background-size: cover;
+}
+.col-1 a, .col-2 a{
+  align-self: center;
+}
+
+
+.slide1{
+  min-width: 300px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 25%;
+  padding: 5px 5px;
+}
+
+.art-con{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5px 5px;
+}
+.art{
+  display: flex;
+  flex: 1;
+}
+
+.art1{
+  background-image: url('https://colorart.ca/wpdir/wp-content/uploads/2016/11/20161129_140301.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.art2{
+
+  background-image: url('http://www.freejupiter.com/wp-content/uploads/2017/04/Simple-Watercolor-Painting-Ideas-12.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.art3{
+  background-image: url('https://creators-images.vice.com/content-images/contentimage/no-slug/1abbb0c7c8a72d2c8a53b5d23c8bb949.jpg?resize=640:*');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.art4{
+  background-image: url('https://steemitimages.com/640x0/https://s3.us-east-2.amazonaws.com/partiko.io/img/0a1d2f1b88e76d348b58c8c2888b7fdd68295316.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.description h3{
+  background:  rgb(176, 211, 205);
+}
+
+.description h1{
+  background: rgb(144, 245, 226);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 5px auto auto auto;
+  justify-content: space-around;
+  width: 70%;
+  
+}
+
+header{
+  background-image: linear-gradient(to top,white, #3DF7D4);
+}
+
+.contact h3{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5em; 
+  text-align: center;
+}
+
+.contact p{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.0em; 
+  text-align: center;
+}
+
+.email, .name, .comment{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.0em;
+  padding: 0 5px 0 5px;
+}
+input{
+  line-height: 1.7rem;
+}
+textarea{
+  height: 7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 870px){
+  .showcase{
+    flex-direction: column;
+  }
+
+}
+
+@media(max-width: 665px){
+  .navigation{
+    flex-direction: column;
+  }
+  .logo{
+    text-align: center;
+  }
+}

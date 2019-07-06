@@ -1,0 +1,49 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+    background: white;
+    text-decoration-line: none;
+    border-radius: 10px;
+}
+body{
+    background-color: #33CCCC;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3DF7D4;
+}
+
+.col{
+    justify-content: space-around;
+
+}
+.card{
+    background-color: #1CA6A6;
+}
+
+.nav {
+    font-size: 1.6em;
+}
+
+.logo{
+    font-size: 3em;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+img{
+    max-height: 360px;
+    border-radius: px;
+}
+
+p{
+    font-size: .9em;
+}
+.footer{
+    background-color: #3DF7D4;
+    font-size: 0.7em;
+} */
