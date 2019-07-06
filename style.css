@@ -147,6 +147,7 @@ header{
   margin: 0;
   display: flex;
   justify-content: space-between;
+  line-height: 1rem;
 }
 .side-bar a {
   flex-direction: row;
