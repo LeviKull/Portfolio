@@ -100,7 +100,7 @@ h1{
   }
 
 }
-@media (max-width: 600px){
+@media (max-width: 650px){
 header{
   flex-direction: column;
 }
@@ -115,6 +115,8 @@ header{
 }
 .side-bar a {
   flex-direction: row;
+  padding: 10px 0 10px 0;
+  margin-right: auto;
   
 }
 }
