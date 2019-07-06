@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+.page-footer{
+  background-image: linear-gradient(to right, #6573e4, #0015bc, #6573e4);
+  color: white;
+  text-decoration: none;
+}
+.rep-footer{
+  background-image: linear-gradient(to right, #e65050, #de0100, #e65050);
+    color: white;
+}
+.twitter-timeline2{
+    max-width: 20%;
+}
+
+a{
+  color: white;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    /* max-width: 95%; */
+    margin: auto;
+    
+}
+li .republican, li .democrat{
+  margin: 0;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+  min-width: 50%;
+  
+}
+
+ul{
+  list-style-type: none;
+}
+header {
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-shadow: 0 5px #0015bc;
+    font-weight: bold;
+}
+
+.democrat a{
+    padding: 0;
+}
+.democrat{
+    background: linear-gradient(to right, #6573e4, #0015bc);
+    color: white;
+    border-radius: 20px 20px 0 0px;
+}
+.republican{
+  background: linear-gradient(to right, #de0100, #e65050);
+    color: white;
+    border-radius: 20px 20px 0 0px;
+    
+}
+.republican-two{
+  background-image: linear-gradient(to right, #e65050, #de0100, #e65050);
+}
+.candidates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* min-height: 100vh; */
+    flex: 1;
+    margin: auto;
+    background-image: linear-gradient(to right, #6573e4, #0015bc, #6573e4);
+}
+.republican-two{
+  background-image: linear-gradient(to right, #e65050, #de0100, #e65050);
+}
+
+.card{
+    display: flex;
+    margin-top: .5em;
+}
+
+.slide{
+  flex: 1;
+}
+img{
+  border-radius: 3px 3px 0 0;
+}
+
+.card-body{
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card-title,.card-text{
+    margin-bottom: 0;
+}
+.card-text{
+    flex: 1;
+    font-size: 1rem;
+}
+p{
+    margin-bottom: 0;
+}
+.description .card-text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    padding: 5px 5px;
+}
+.description h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px 5px;
+    background: #0015bc;
+    color: ivory;
+    text-align: center;
+    border-radius: 3px 3px 0 0;
+}
+.desc-rep h5{
+  background: #de0100;
+}
+.rep-card{
+  /* max-height: 375px; */
+}
+.btn-primary{
+    align-content: flex-end;
+}
+a:hover{
+  text-decoration: none;
+}
+
