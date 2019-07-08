@@ -117,7 +117,14 @@ h1{
   width: 90%;
   height: auto;
 }
-
+.bootstrappic{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 90%;
+  height: auto;
+}
 
 
 
